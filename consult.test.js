@@ -10,8 +10,8 @@ describe('Pruebas de Usuario', () => {
         connection = await mysql.createConnection({
             host: 'localhost',
             user: 'root',
-            password: 'AguaUwu2',
-            database: 'minecraft2'
+            password: 'test',
+            database: 'TestDB'
         });
     });
 
